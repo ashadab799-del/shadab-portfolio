@@ -1,8 +1,11 @@
-/** @type {import('next').NextConfig} */
+import createMDX from "@next/mdx";
+
+const withMDX = createMDX({
+  extension: /\.mdx?$/,
+});
+
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  pageExtensions: ["ts", "tsx", "mdx"],
 };
 
-export default nextConfig;
+export default withMDX(nextConfig);

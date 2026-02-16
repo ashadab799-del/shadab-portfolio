@@ -1,5 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Shadab Akhtar | Packet Core & AI Engineer",
@@ -14,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-black text-slate-100">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
