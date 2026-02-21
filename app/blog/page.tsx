@@ -101,9 +101,9 @@ export default function BlogPage() {
 
                 {/* Title on image */}
                 <div className="absolute bottom-4 left-4 right-4">
-                  <span className="inline-block mb-2 text-xs uppercase tracking-wide bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full">
-                    {post.icon} {post.tag}
-                  </span>
+                  <span className="inline-block mb-2 text-xs uppercase tracking-wide bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded">
+  Blog
+</span>
 
                   <h2 className="text-xl font-semibold text-white">
                     {post.title}
