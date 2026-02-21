@@ -1,12 +1,10 @@
-import "./globals.css";
 import type { Metadata } from "next";
+import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Shadab Akhtar | Packet Core & AI Engineer",
-  description:
-    "Portfolio of Shadab Akhtar – Packet Core, Telecom Networks, Linux, Wireshark, and AI-driven solutions",
+  title: "Shadab Akhtar | Portfolio",
+  description: "Telecom & Packet Core Engineer learning AI",
 };
 
 export default function RootLayout({
@@ -16,10 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-black text-slate-100">
+      <body className="bg-slate-950 text-white">
         <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );
