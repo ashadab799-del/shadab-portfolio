@@ -2,7 +2,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 
 export default function Home() {
   return (
-    <main className="space-y-32">
+    <main className="space-y-36">
 
       {/* HERO */}
       <AnimatedSection>
