@@ -1,4 +1,9 @@
 import AnimatedSection from "@/components/AnimatedSection";
+export const metadata = {
+  title: "Home",
+  description:
+    "Portfolio of Shadab Akhtar, Telecom & Packet Core Engineer specializing in EPC, network operations, and AI-driven telecom solutions.",
+};
 
 export default function Home() {
   return (
